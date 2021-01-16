@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack serve --open --mode development",
+    "watch": "webpack --watch --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
