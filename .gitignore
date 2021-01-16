@@ -1,2 +1,3 @@
 .vscode
 srv/__debug_bin
+web/node_modules
