@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 func main() {
@@ -14,7 +14,7 @@ func main() {
 
 func runServer() error {
 	e := echo.New()
-	e.Static("/", "../web/dst")
+	e.Static("/", "../web/dist")
 
 	return e.Start(":8080")
 }
