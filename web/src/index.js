@@ -1,9 +1,14 @@
+import React from 'react'
+import { render } from 'react-dom'
+
 import "./style.css"
+import App from './App'
+
 
 console.log("Hello webpack!")
 
-const fancyPantsJS = () => [1,2]
+render(<App />, document.getElementById("root"));
 
-const [a,b] = fancyPantsJS()
 
-console.log(a, b)
+
+

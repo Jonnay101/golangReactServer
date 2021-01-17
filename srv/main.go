@@ -16,5 +16,5 @@ func runServer() error {
 	e := echo.New()
 	e.Static("/", "../web/dist")
 
-	return e.Start(":8080")
+	return e.Start(":8086")
 }
